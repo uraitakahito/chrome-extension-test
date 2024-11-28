@@ -1,6 +1,8 @@
 const puppeteer = require("puppeteer");
 
 const EXTENSION_PATH = "./src";
+// How is the Chrome Extension ID of an unpacked extension generated?
+// https://stackoverflow.com/questions/26053434/how-is-the-chrome-extension-id-of-an-unpacked-extension-generated
 const EXTENSION_ID = "jkomgjfbbjocikdmilgaehbfpllalmia";
 
 let browser;
