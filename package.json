@@ -2,10 +2,11 @@
   "name": "puppeteer-demo",
   "version": "1.0",
   "scripts": {
-    "start": "jest ."
+    "test": "jest . && vitest run"
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "puppeteer": "^23.9.0"
+    "puppeteer": "^23.9.0",
+    "vitest": "^2.1.6"
   }
 }
