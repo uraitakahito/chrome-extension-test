@@ -12,6 +12,7 @@ module.exports = {
     browser: true,
     es2024: true,
     node: true,
+    webextensions: true,
   },
 
   /*
