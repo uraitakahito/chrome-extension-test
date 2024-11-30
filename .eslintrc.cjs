@@ -55,6 +55,8 @@ module.exports = {
         'jest/no-hooks': 'off',
         // https://github.com/jest-community/eslint-plugin-jest/blob/v28.9.0/docs/rules/prefer-importing-jest-globals.md
         'jest/prefer-importing-jest-globals': 'off',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/v28.9.0/docs/rules/require-hook.md
+        'jest/require-hook': 'off',
       },
     },
     {
