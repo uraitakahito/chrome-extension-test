@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
 const EXTENSION_PATH = './src';
 // How is the Chrome Extension ID of an unpacked extension generated?
@@ -10,7 +10,7 @@ let browser;
 describe('popup', () => {
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: [
         `--disable-extensions-except=${EXTENSION_PATH}`,
         `--load-extension=${EXTENSION_PATH}`,
