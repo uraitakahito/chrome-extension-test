@@ -8,5 +8,8 @@
     "default_popup": "popup.html",
     "default_icon": "clock.png"
   },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
   "manifest_version": 3
 }
