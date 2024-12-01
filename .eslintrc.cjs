@@ -8,7 +8,6 @@ module.exports = {
    * https://github.com/eslint/eslintrc/blob/main/conf/environments.js
    */
   env: {
-    '@vitest/env': true,
     browser: true,
     es2024: true,
     node: true,
@@ -60,6 +59,9 @@ module.exports = {
       },
     },
     {
+      env: {
+        '@vitest/env': true,
+      },
       //
       // https://github.com/vitest-dev/eslint-plugin-vitest
       // https://stackoverflow.com/a/78859495
