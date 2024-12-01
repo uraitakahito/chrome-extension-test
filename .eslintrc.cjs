@@ -67,6 +67,10 @@ module.exports = {
       extends: ['plugin:@vitest/legacy-all'],
       files: ['test/**', 'test-vitest/**'],
       plugins: ['@vitest'],
+      rules: {
+        // https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-hooks.md
+        '@vitest/no-hooks': 'off',
+      },
     },
   ],
 
