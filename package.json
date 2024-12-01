@@ -1,10 +1,17 @@
 {
   "name": "puppeteer-demo",
   "version": "1.0",
+  "type": "module",
   "scripts": {
+    "test:jest:run": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest",
     "test": "jest . && vitest run"
   },
   "devDependencies": {
+    "@vitest/eslint-plugin": "^1.1.12",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.9.0",
     "jest": "^29.7.0",
     "puppeteer": "^23.9.0",
     "vitest": "^2.1.6"
